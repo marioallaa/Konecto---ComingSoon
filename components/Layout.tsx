@@ -6,22 +6,22 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children, title = "Konecto | Coming Soon" }: Props) => (
   <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
     <Head>
-      <title>{title} | Themeptation</title>
+      <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Welcome to Konecto Ltd, Something Cool is cooking in here, but its not ready yet."
       />
-      <meta property="og:title" content={`${title} | Themeptation`} />
+      <meta property="og:title" content={`${title}`} />
       <meta
         property="og:description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Welcome to Konecto Ltd, Something Cool is cooking in here, but its not ready yet."
       />
-      <meta property="og:url" content="https://slioth.themepttation.net/" />
+      <meta property="og:url" content="https://konecto.ltd/" />
       <meta property="og:type" content="website" />
     </Head>
     {children}
